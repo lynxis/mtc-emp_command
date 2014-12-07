@@ -115,3 +115,6 @@ class GameApp(libavg.AVGApp):
                 raise
 
         return os.path.join(path, fname)
+
+    def quit(self):
+        self.leave()
